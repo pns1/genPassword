@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'SF Pro Display';
+}
+body{
+  background-color: #15191f;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  text-align: center;
+  width: 250px;
+  border: 1px solid #ffb630;
+  border-radius: 10px;
+}
+h1{
+  margin-bottom: 8px;
+  color: #ecf2f2;
+}
+p{
+  border: 1px solid #15191f;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #b3b7bd;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+p:hover{
+  border: 1px solid #ffb630;
+  background-color: #ffb630;
+}
+#buttonG{
+  padding: 3px;
+  margin: 10px;
+  background-color: #15191f;
+  border: 1px solid #ffb630;
+  border-radius: 5px;
+  color: #ecf2f2;
+}
+#buttonG:hover{
+  background-color: #ffb630;
+  color: #15191f;
+}

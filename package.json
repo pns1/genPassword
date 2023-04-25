@@ -1,0 +1,18 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Password generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "keywords": [
+    "password",
+    "gen"
+  ],
+  "author": "pns",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.1.2"
+  }
+}
